@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     // 백그라운드의 Activity 화면 출력
     override fun onRestart() {
         super.onRestart()
-        Log.d(TAG, "[MainActivity][onStop] called")
+        Log.d(TAG, "[MainActivity][onRestart] called")
     }
 
     // Activity 종료
